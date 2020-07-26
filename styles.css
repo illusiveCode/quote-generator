@@ -1,0 +1,137 @@
+p {
+     font-size: 25px;
+     font-family: 'Courgette', cursive;
+     text-align: center;
+}
+ body {
+     background-color: lightblue;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background: 
+}
+ h1 {
+     font-family: 'Cinzel', serif;
+     color: black;
+     text-align: center;
+     border: none;
+     border-collapse: collapse;
+     padding: 50px 500px 50px 500px;
+     text-shadow: 1px 1px white;
+     background: linear-gradient(lightyellow, transparent);
+     text-decoration: black underline wavy;
+     text-transform: rgba(0, 0 ,0 , 0.5);
+     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+ .container{
+     text-align: center;
+     flex: center;
+}
+ #generator {
+     width: 150px;
+     height: 30px;
+     border: none;
+     box-shadow: 0px 2px 10px rgba(0,0,0,.5);
+     margin-bottom: 20px;
+     border-radius: 10px;
+}
+ #quotenumber option {
+     font-family: 'Cinzel', serif;
+}
+ #quotenumber {
+     width: 150px;
+     height: 30px;
+     border: none;
+     box-shadow: 0px 2px 10px rgba(0,0,0,.5);
+     margin-bottom: 20px;
+     border-radius: 10px;
+}
+ #generator option {
+     font-family: 'Cinzel', serif;
+}
+ #btn {
+     padding: 15px 25px;
+     font-size: 20px;
+     margin: 0em 30em 1.5em 30em;
+     cursor: pointer;
+     outline: none;
+     color: black;
+     background-color: #4CAF50;
+     border: none;
+     border-radius: 10px;
+     box-shadow: 0 9px #999;
+     display: block;
+     text-align: center !important;
+     align-content: center !important;
+}
+ #btn:hover {
+    background-color: #3e8e41
+}
+ #btn:active {
+     background-color: #3e8e41;
+     box-shadow: 0 5px #666;
+     transform: translateY(4px);
+}
+ #sentence {
+     text-align: center;
+     padding-top: 50px;
+     margin-bottom: : 25px;
+     font-size: 30px;
+     font-family: 'Courgette', cursive;
+}
+ .buttons {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+ .genbtn {
+    padding: 15px 25px;
+    font-size: 20px;
+    margin: 0em 30em 1.5em 30em;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background-color: #f51616;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+    }
+
+.genbtn:hover {
+    background-color: #990000;
+}
+
+.genbtn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+#backbtn {
+    padding: 15px 25px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background-color: #ffc400;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+    align-content: center;
+    
+}
+
+ #backbtn:hover {
+    background-color: #b58b00;
+}
+ #backbtn:active {
+     background-color: #b58b00;
+     box-shadow: 0 5px #666;
+     transform: translateY(4px);
+} 
+
+
+
+ 
