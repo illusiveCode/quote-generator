@@ -7,6 +7,10 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Courgette|Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
     <title>Random Quote Generator</title>
     <h1>Random Quote Generator</h1>
 
@@ -14,7 +18,7 @@
 
 <body>
 
-    <p>This quote generator will generate random motivational and success quotes by selecting parts of a sentence and joining them together. Have a go!</p>
+    <p>Hit generate to get a new motivational quote !!!</p>
     <div class="container">
         <select id="generator">
             <option value="1">Generator 1</option>
@@ -26,14 +30,15 @@
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
-            <option value="5">5</option> 
+            <option value="5">5</option>
         </select>
         <div class="buttons">
-		<button id="btn" class="genbtn">Generate</button>
-		<button id="quitbtn" class="genbtn">Quit</button>
-	</div>
+            <button id="btn" class="genbtn">Generate</button>
+            <button id="quitbtn" class="genbtn">Quit</button>
+        </div>
     </div>
-    <div id="sentence"></div>
+
+   <textarea name="text"  class="txt"id="sentence"></textarea>
     <script type="text/javascript" src="script.js"></script>
-    
+
 </body>

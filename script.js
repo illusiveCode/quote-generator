@@ -23,10 +23,10 @@ window.onload = function() {
         for (let i = 0; i < selectedQuoteNumber; i++) {
             if (selectedGenerator === '1') {
 
-                sentence = `<p>${motivationalStart[randomQuote(motivationalStart)]} ${motivationalMiddle[randomQuote(motivationalMiddle)]} ${motivationalEnd[randomQuote(motivationalEnd)]}</p>`;
+                sentence = `${motivationalStart[randomQuote(motivationalStart)]} ${motivationalMiddle[randomQuote(motivationalMiddle)]} ${motivationalEnd[randomQuote(motivationalEnd)]}`;
                 sentences += sentence
             } else {
-                sentence = `<p>${successStart[randomQuote(successStart)]} ${successMiddle[randomQuote(successMiddle)]} ${successEnd[randomQuote(successEnd)]}</p>`;
+                sentence = `${successStart[randomQuote(successStart)]} ${successMiddle[randomQuote(successMiddle)]} ${successEnd[randomQuote(successEnd)]}`;
                 sentences += sentence
             }
         }

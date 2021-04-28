@@ -1,54 +1,64 @@
 p {
-     font-size: 25px;
+    color: rgb(3, 3, 3);
+     font-size: 30px;
      font-family: 'Courgette', cursive;
      text-align: center;
+     font-family: 'Orelega One', cursive;
+     font-weight: 500;
 }
  body {
-     background-color: lightblue;
+    background: rgb(9,9,121);
+    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,190,255,1) 52%, rgba(9,9,121,1) 100%);
      display: flex;
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     background: 
 }
  h1 {
-     font-family: 'Cinzel', serif;
-     color: black;
+    font-family: 'Roboto', sans-serif;
+     color: rgb(255, 255, 255);
      text-align: center;
      border: none;
      border-collapse: collapse;
      padding: 50px 500px 50px 500px;
-     text-shadow: 1px 1px white;
-     background: linear-gradient(lightyellow, transparent);
-     text-decoration: black underline wavy;
-     text-transform: rgba(0, 0 ,0 , 0.5);
+     /* text-shadow: 1px 1px white; */
+     background: #0e0e60;
+     /* text-transform: rgba(0, 0 ,0 , 0.5); */
      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+     font-size: 40px;
+     border-radius: 45px;
 }
  .container{
      text-align: center;
      flex: center;
 }
  #generator {
-     width: 150px;
-     height: 30px;
+     width: 160px;
+     height: 40px;
      border: none;
      box-shadow: 0px 2px 10px rgba(0,0,0,.5);
      margin-bottom: 20px;
      border-radius: 10px;
+     background-color: #0e0e60;
+     color: white;
+     margin :0px 15px;
+     font-family: 'Roboto', sans-serif;
+     font-size: 17px;
+     padding: 2px 23px;
 }
- #quotenumber option {
-     font-family: 'Cinzel', serif;
-}
+
  #quotenumber {
-     width: 150px;
-     height: 30px;
+    width: 160px;
+    height: 40px;
      border: none;
      box-shadow: 0px 2px 10px rgba(0,0,0,.5);
      margin-bottom: 20px;
      border-radius: 10px;
-}
- #generator option {
-     font-family: 'Cinzel', serif;
+     background-color: #0e0e60;
+     color: white;
+     font-family: 'Roboto', sans-serif;
+     font-size: 17px;
+     padding: 2px 23px;
 }
  #btn {
      padding: 15px 25px;
@@ -60,25 +70,20 @@ p {
      background-color: #4CAF50;
      border: none;
      border-radius: 10px;
-     box-shadow: 0 9px #999;
      display: block;
+     font-weight: 600;
      text-align: center !important;
      align-content: center !important;
+}
+#quitbtn{
+    font-weight: 600;
 }
  #btn:hover {
     background-color: #3e8e41
 }
  #btn:active {
      background-color: #3e8e41;
-     box-shadow: 0 5px #666;
      transform: translateY(4px);
-}
- #sentence {
-     text-align: center;
-     padding-top: 50px;
-     margin-bottom: : 25px;
-     font-size: 30px;
-     font-family: 'Courgette', cursive;
 }
  .buttons {
      display: flex;
@@ -96,7 +101,7 @@ p {
     background-color: #f51616;
     border: none;
     border-radius: 10px;
-    box-shadow: 0 9px #999;
+    font-weight: 500;
     }
 
 .genbtn:hover {
@@ -105,7 +110,7 @@ p {
 
 .genbtn:active {
     background-color: #3e8e41;
-    box-shadow: 0 5px #666;
+    font-weight: 500;
     transform: translateY(4px);
 }
 #backbtn {
@@ -118,7 +123,6 @@ p {
     background-color: #ffc400;
     border: none;
     border-radius: 10px;
-    box-shadow: 0 9px #999;
     align-content: center;
     
 }
@@ -128,9 +132,20 @@ p {
 }
  #backbtn:active {
      background-color: #b58b00;
-     box-shadow: 0 5px #666;
      transform: translateY(4px);
 } 
+.txt{
+    color: white;
+    background-color: #0e0e60;
+    text-align: center;
+    width: 900px;
+    height: 69px;
+    border-radius: 21px;
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px 24px;
+}
+
 
 
 
