@@ -1,6 +1,6 @@
 p {
      font-size: 25px;
-     font-family: 'Courgette', cursive;
+     font-family: 'Quintessential', cursive;
      text-align: center;
 }
  body {
@@ -9,7 +9,6 @@ p {
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     background: 
 }
  h1 {
      font-family: 'Cinzel', serif;
@@ -51,34 +50,20 @@ p {
      font-family: 'Cinzel', serif;
 }
  #btn {
-     padding: 15px 25px;
-     font-size: 20px;
-     margin: 0em 30em 1.5em 30em;
-     cursor: pointer;
-     outline: none;
-     color: black;
      background-color: #4CAF50;
-     border: none;
-     border-radius: 10px;
-     box-shadow: 0 9px #999;
-     display: block;
-     text-align: center !important;
-     align-content: center !important;
 }
  #btn:hover {
     background-color: #3e8e41
 }
  #btn:active {
      background-color: #3e8e41;
-     box-shadow: 0 5px #666;
-     transform: translateY(4px);
 }
  #sentence {
      text-align: center;
      padding-top: 50px;
-     margin-bottom: : 25px;
+     margin-bottom: 25px;
      font-size: 30px;
-     font-family: 'Courgette', cursive;
+     font-family: 'Quintessential', cursive
 }
  .buttons {
      display: flex;
@@ -97,17 +82,21 @@ p {
     border: none;
     border-radius: 10px;
     box-shadow: 0 9px #999;
-    }
-
-.genbtn:hover {
-    background-color: #990000;
 }
 
-.genbtn:active {
-    background-color: #3e8e41;
+.genbtn:active{
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
+
+#quitbtn:hover {
+    background-color: #990000;
+}
+
+#quitbtn:active {
+    background-color: #990000;
+}
+
 #backbtn {
     padding: 15px 25px;
     font-size: 20px;
@@ -120,7 +109,6 @@ p {
     border-radius: 10px;
     box-shadow: 0 9px #999;
     align-content: center;
-    
 }
 
  #backbtn:hover {
@@ -132,6 +120,49 @@ p {
      transform: translateY(4px);
 } 
 
+/* Animation */
 
+:root{
+    --animation-duration: 500ms;
+    --animation-delay: 500ms
+}
+
+h1{
+    animation: appear var(--animation-duration);
+}
+
+#description{
+    opacity: 0;
+    animation: appear var(--animation-duration) var(--animation-delay) forwards;
+}
+
+select{
+    opacity: 0;
+    animation: appear var(--animation-duration) calc(var(--animation-delay) * 2) forwards;
+}
+
+#btn{
+    opacity: 0;
+    animation: appear var(--animation-duration) calc(var(--animation-delay) * 3) forwards;
+}
+
+#quitbtn{
+    opacity: 0;
+    animation: appear var(--animation-duration) calc(var(--animation-delay) * 4) forwards;
+}
+
+#sentence p{
+    animation-name: appear;
+    animation-duration: 2.5s;
+}
+
+@keyframes appear{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 
  
